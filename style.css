@@ -1,0 +1,30 @@
+:root {
+    --primary-color: rgb(0, 132, 255);
+}
+.download-card {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.img-place {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-place > img {
+    height: 70%;
+}
+
+.counter {
+    display: inline-block;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+    user-select: none;
+}
